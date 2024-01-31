@@ -13,25 +13,196 @@
 
   <body>
     <!-- TODO: Code your dashboard here -->
-    <!-- navbar -->
-   
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-dark px-5 sticky-top">
+      <div class="container">
+        <a class="navbar-brand link-primary" href="#">Le Wagon Airbnb</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
     <!-- navbar end -->
-    
-    <!-- sidebar -->
-          
-    <!-- sidebar end -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <!-- sidebar start -->
+          <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 bg-light col-3 position-fixed" style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <img class="mx-2" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" width="40" height="40" />
+              <span class="fs-4">Welcome!👋</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page"> 
+                  <i class="fa-solid fa-table-columns"></i> Overview
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link link-dark">
+                  <i class="fa-solid fa-house"></i> My Flats
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link link-dark">
+                  <i class="fa-solid fa-book"></i> My Bookings
+                </a>
+              </li>
+            </ul>
+            <hr>
+            <div class="dropdown">
+              <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://avatars.githubusercontent.com/u/105838459?v=4" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>Hellen</strong>
+              </a>
+              <ul class="dropdown-menu text-small shadow">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- sidebar end -->
+        </div>
+        <div class="col-9">
+          <!-- alert start -->
+          <div class="alert alert-primary p-3 rounded border">Check out your incoming bookings!</div>
+          <!-- alert end -->
 
-    <!-- alert -->
-          
-    <!-- alert end -->
+          <!-- table bookings start -->
+          <h1>Bookings</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Email</th>
+                <th scope="col">Apartment</th>
+                <th scope="col">Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Garden View Flat</td>
+                <td>Jan, 1st 2023 - Jan, 23rd 2023</td>
+              </tr>
+      
+            </tbody>
+          </table>
+          <!-- table bookings end -->
 
-    <!-- bookings table -->
-  
-    <!-- bookings table end -->
-
-    <!-- flats table -->
-          
-    <!-- flats table end -->
-    
+          <!-- table flats start -->
+          <h2>Flats</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Garden View</td>
+          <td>Paris</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Sea View</td>
+          <td>Marseille</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Courtside View</td>
+          <td>Nantes</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
+          <!-- table flats end -->
+        </div>
+      </div>
+    </div>
   </body>
 </html>

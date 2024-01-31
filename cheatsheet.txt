@@ -31,8 +31,8 @@ SIDEBAR
   <div class="dropdown">
     <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
       data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="https://avatars.githubusercontent.com/u/144242002?v=4" alt="" width="32" height="32" class="rounded-circle me-2">
-      <strong>Scott</strong>
+      <img src="https://avatars.githubusercontent.com/u/105838459?v=4" alt="" width="32" height="32" class="rounded-circle me-2">
+      <strong>Hellen</strong>
     </a>
     <ul class="dropdown-menu text-small shadow">
       <li><a class="dropdown-item" href="#">New project...</a></li>
